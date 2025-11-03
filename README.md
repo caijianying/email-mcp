@@ -1,5 +1,5 @@
 # Email-MCP 服务
-[![GitHub stars](https://img.shields.io/github/stars/caijianying/email-mcp.svg?style=badge&label=Stars&logo=github)](https://github.com/caijianying/email-mcp)
+![GitHub Stars](https://img.shields.io/github/stars/caijianying/email-mcp.svg)
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/caijianying/email-mcp/blob/main/LICENSE)
 [![](https://img.shields.io/badge/Author-小白菜-orange.svg)](https://caijianying.github.io)
 [![](https://img.shields.io/badge/version-V1.0.0-brightgreen.svg)](https://github.com/caijianying/email-mcp)
