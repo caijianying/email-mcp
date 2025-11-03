@@ -1,5 +1,12 @@
 # Email-MCP 服务
 
+[![GitHub stars](https://img.shields.io/github/stars/caijianying/email-mcp.svg?style=badge&label=Stars&logo=github)](https://github.com/caijianying/email-mcp)
+[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/caijianying/email-mcp/blob/main/LICENSE)
+[![](https://img.shields.io/badge/Author-小白菜-orange.svg)](https://caijianying.github.io)
+[![](https://img.shields.io/badge/version-V20240228-brightgreen.svg)](https://github.com/caijianying/email-mcp)
+
+
+
 这是一个基于 MCP 协议的邮件发送服务，允许 AI 助手通过标准化接口发送电子邮件。
 
 ## 项目概述
