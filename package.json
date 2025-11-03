@@ -1,0 +1,35 @@
+{
+    "name": "email-mcp-server",
+    "version": "1.0.0",
+    "description": "Email Message Control Protocol (MCP) Server",
+    "main": "build/server.js",
+    "scripts": {
+        "start": "ts-node src/server.ts",
+        "build": "mkdir -p build && tsc",
+        "compile": "tsc"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.9.0",
+        "@types/express": "^5.0.3",
+        "@types/nodemailer": "^7.0.3",
+        "commander": "^14.0.0",
+        "express": "^5.1.0",
+        "nodemailer": "^7.0.10",
+        "zod": "^3.22.4"
+    },
+    "keywords": [
+        "email",
+        "mcp",
+        "server",
+        "message-control-protocol"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "email-mcp-server": "build/server.js"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
