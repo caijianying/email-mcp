@@ -17,7 +17,7 @@ function createServerInstance() {
 
   // 创建MCP服务器实例
   const server = new McpServer({
-    name: 'email-mcp-server',
+    name: 'email-mcp',
     version: '1.0.0'
   }, {
     capabilities: {
@@ -66,7 +66,7 @@ const options = program.opts();
 
 // 如果请求显示版本信息
 if (options.version) {
-  process.stdout.write('email-mcp-server v1.0.0\n');
+  process.stdout.write('email-mcp v1.0.0\n');
   process.exit(0);
 }
 

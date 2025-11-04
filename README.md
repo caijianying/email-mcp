@@ -39,7 +39,7 @@
 ```json
 {
   "mcpServers": {
-    "email-mcp-server": {
+    "email-mcp": {
       "command": "node",
       "args": [
         "yourpath\\email-mcp\\build\\server.js",

@@ -1,12 +1,13 @@
 {
-    "name": "email-mcp-server",
+    "name": "email-mcp",
     "version": "1.0.0",
-    "description": "Email Message Control Protocol (MCP) Server",
+    "description": "邮件发送服务",
     "main": "build/server.js",
     "scripts": {
         "start": "ts-node src/server.ts",
         "build": "mkdir -p build && tsc",
-        "compile": "tsc"
+        "compile": "tsc",
+        "prepublishOnly": "npm run build"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.9.0",
@@ -24,9 +25,14 @@
         "message-control-protocol"
     ],
     "author": "",
-    "license": "ISC",
+    "files": [
+        "build/**/*",
+        "src/**/*",
+        "tsconfig.json"
+    ],
+    "license": "Apache-2.0",
     "bin": {
-        "email-mcp-server": "build/server.js"
+        "email-mcp": "build/server.js"
     },
     "devDependencies": {
         "ts-node": "^10.9.2",
