@@ -8,6 +8,10 @@
 
 这是一个基于 MCP 协议的邮件发送服务，它允许 AI 助手通过标准化接口自动发送电子邮件。
 
+<a href="https://glama.ai/mcp/servers/@caijianying/email-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@caijianying/email-mcp/badge" alt="Email-MCP MCP server" />
+</a>
+
 ## 概述
 
 虽然目前只测试了接入 Spring-AI 的 Java 服务，但本服务理论上适用于所有支持 MCP 协议的 AI 助手和客户端。
